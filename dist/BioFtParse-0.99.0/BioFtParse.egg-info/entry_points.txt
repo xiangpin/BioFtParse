@@ -1,0 +1,3 @@
+[console_scripts]
+parse_genbank.py = BioFtParse.parse_genbank:main
+

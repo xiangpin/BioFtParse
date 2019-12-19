@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+BioFtParse/__init__.py
+BioFtParse/_version.py
+BioFtParse/genbank.py
+BioFtParse/parse_genbank.py
+BioFtParse.egg-info/PKG-INFO
+BioFtParse.egg-info/SOURCES.txt
+BioFtParse.egg-info/dependency_links.txt
+BioFtParse.egg-info/entry_points.txt
+BioFtParse.egg-info/requires.txt
+BioFtParse.egg-info/top_level.txt
