@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: BioFtParse
+Version: 0.99.0
+Summary: Multiple Bioinformatics format files parse toolkits
+Home-page: http://github.com/xiangpin/
+Author: xu shuangbin
+Author-email: xshuangbin@163.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.0.0
