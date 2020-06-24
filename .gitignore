@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+*.DS_Store
+
+build/
+dist/
+BioFtParse.egg-info/
+*/__pycache__/
+__pycache__/
+.ipynb_checkpoints/
+
+.CHECKSUMS
