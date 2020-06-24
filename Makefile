@@ -9,5 +9,11 @@ dist2:
 egg:
 	python setup.py bdist_egg
 
+testpypi: dist
+	twine upload -r testpypi dist/*
+
+pypi: dist
+	twine upload dist/*
+
 clean:
-	rm -rf build dist BioFtParse.egg-info 
+	rm -rf build dist BioFtParse.egg-info
