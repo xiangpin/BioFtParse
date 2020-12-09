@@ -15,10 +15,12 @@ def extract_cds_annot(seqrecord):
             tmpquali = dict(gene.qualifiers)
             tmpquali = diffdict_df(tmpquali)
             tmpgene.append(tmpquali)
-    if (len(tmpgene)>1):
+    if (len(tmpgene)>=1):
         genes = pd.concat(tmpgene, sort=False)
         genes.insert(loc=0, column='SeqID', value=seqrecord.id)
         return (genes)
+    else:
+        return (None)
 
 def extract_seq_annot(seqrecord):
     if isinstance(seqrecord.annotations["organism"], list):
