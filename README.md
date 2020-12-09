@@ -18,7 +18,7 @@ python setup.py install
 
 ## Usage
 
-These some examples in
+There are some examples in
 [examples](https://github.com/xiangpin/BioFtParse/tree/master/examples).
 Or you can view the help information with the following code.
 
