@@ -17,3 +17,6 @@ pypi: dist
 
 clean:
 	rm -rf build dist BioFtParse.egg-info
+
+install:
+	python setup.py install
